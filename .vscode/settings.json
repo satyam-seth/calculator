@@ -7,5 +7,12 @@
   "editor.codeActionsOnSave": {
     "source.organizeImports": true
   },
+  "liveSassCompile.settings.formats": [
+    {
+      "format": "compressed",
+      "extensionName": ".css",
+      "savePath": "/dist/css"
+    }
+  ],
   "files.eol": "\n"
 }
