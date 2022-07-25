@@ -1,2 +1,6 @@
-// eslint-disable-next-line no-console
-console.log('calculator');
+import Calculator from './calculator';
+
+window.onload = () => {
+  const calculator = new Calculator();
+  calculator.run();
+};
