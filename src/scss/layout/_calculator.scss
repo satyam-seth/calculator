@@ -1,7 +1,6 @@
 @mixin calculator {
   .calculator {
-    display: flex;
-    flex-direction: column;
+    @include flex-column;
     border: 1px solid white;
     border-radius: 0.5rem;
     padding: 1rem;
