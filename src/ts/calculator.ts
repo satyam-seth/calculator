@@ -11,7 +11,7 @@ export default class Calculator {
   private buttonsSkeleton(): HTMLElement {
     const buttonTexts = [
       'AC',
-      '+/-',
+      'DEL',
       '%',
       '/',
       '7',
@@ -53,6 +53,6 @@ export default class Calculator {
 
   public run(): void {
     const skeleton = this.skeleton();
-    document.body.appendChild(skeleton);
+    document.querySelector('main')!.appendChild(skeleton);
   }
 }

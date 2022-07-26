@@ -1,0 +1,10 @@
+@mixin calculator-screen {
+  .screen {
+    padding: 1rem;
+    text-align: end;
+    font-size: 1.5rem;
+    border-radius: 0.5rem;
+    background-color: gray;
+    border: 1px solid white;
+  }
+}
