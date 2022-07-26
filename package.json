@@ -6,6 +6,7 @@
   "scripts": {
     "build": "tsc",
     "lint": "eslint ./src/ts/**/*.ts",
+    "dev": "npm run build && npm run bundle",
     "lint:fix": "eslint ./src/ts/**/*.ts --fix",
     "format": "prettier --write ./src/ts/**/*.ts",
     "bundle": "browserify ./dist/js/main.js -o dist/js/bundle.js",

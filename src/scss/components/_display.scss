@@ -1,5 +1,6 @@
-@mixin calculator-screen {
-  .screen {
+@mixin calculator-display {
+  .display {
+    height: 3.5rem;
     padding: 1rem;
     text-align: end;
     font-size: 1.5rem;
