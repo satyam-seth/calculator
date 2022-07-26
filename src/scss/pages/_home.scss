@@ -3,7 +3,7 @@ main {
   width: 100%;
   @include grid-center;
   @include calculator {
-    @include calculator-screen;
+    @include calculator-display;
     @include calculator-buttons;
   }
 }
